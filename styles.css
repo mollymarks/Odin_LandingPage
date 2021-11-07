@@ -1,5 +1,5 @@
 * {
-    border: 0px solid red;
+    border: px solid red;
     box-sizing: border-box;
 }
 
@@ -28,15 +28,19 @@ body * {
 }
 
 .logo {
-    font-size: 18px;
-    font-weight: 800;
+    font-size: 40px;
 }
 
 .header-links {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
     font-size: 11px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .section-one {
@@ -46,6 +50,7 @@ body * {
     background-color: #1f2937;
     color: white;
     padding: 50px;
+    gap: 20px;
 }
 
 .section-one div {
@@ -60,11 +65,13 @@ body * {
 
 .subtext {
     font-size: 12px;
+    color: rgb(235, 235, 235);
 }
 
 .dog {
     width: 250px;
     height: auto;
+    border-radius: 100%;
 }
 
 button {
@@ -88,13 +95,22 @@ button {
     display: flex;
     justify-content: space-around;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 .img-container div {
-    height: 100px;
-    width: 100px;
+
+}
+
+.img-container div img {
+    height: 200px;
+    width: 200px;
     border-radius: 10px;
-    border: 2px solid #3882f6;
+    border: 3px solid #1f2937;
+}
+
+.img-container div p {
+    text-align: center;
 }
 
 .cap-container {
@@ -125,6 +141,10 @@ button {
 .section-three p {
     margin: 0 200px;
     padding: 5px;
+}
+
+.quote-container {
+
 }
 
 .quote {
